@@ -1,0 +1,120 @@
+
+  amp-story  {
+    font-family: "Helvitica Nueve", sans-serif;
+    color: white;
+    z-index: 1;
+   
+  }
+
+  amp-story-page {
+    background: white;
+  }
+
+  amp-story h1 {
+    font-size: 46px;
+  }
+
+  amp-story h2 {
+    font-size: 36px;
+  }
+
+
+  amp-story .close-circle-outline{
+    z-index: 1 !important;
+    font-size: 40px;
+    position: absolute;
+    left: 1190px;
+  }
+  amp-story p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  i{
+    margin-right: 28.5rem;
+    margin-top: 3rem;
+  }
+
+  .bold {
+    font-weight: bold;
+  }
+
+  .bottom {
+    align-content: end;
+  }
+
+  .medium {
+    font-weight: 600;
+  }
+
+  .first {
+    padding-top: 65px;
+  }
+
+  .last {
+    padding-bottom: 65px;
+  }
+
+  .blue {
+    color: #4285f4;
+  }
+
+  .twenty-px {
+    font-size: 20px;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .lh30 {
+    line-height: 30px;
+  }
+
+  .icon {
+    background-image: url(https://ampbyexample.com/img/AMP-Brand-White-Icon.svg);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    height: 50px;
+    object-fit: contain;
+    width: 50px;
+  }
+
+  .byline {
+    letter-spacing: 1.28px;
+    padding-bottom: 58px;
+  }
+
+  .introducing * {
+    line-height: 42px;
+  }
+
+  .subtitle-page {
+    padding-top: 80px;
+  }
+
+  .button {
+    align-items: center;
+    border: 4px solid #ffffff;
+    color: #ffffff;
+    display: flex;
+    height: 60px;
+    margin: 0 auto;
+    max-width: 240px;
+    text-decoration: none;
+  }
+
+  .button p {
+    font-size: 20px;
+    width: 100%;
+  }
+
+  amp-ad[template="image-template"] img,
+  amp-ad[template="video-template"] {
+    object-fit: cover;
+  }
+
+  ::cue {
+    background-color: rgba(145, 163, 223, 0.75);
+    font-size: 24px;
+    line-height: 1.5;
+  }

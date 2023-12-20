@@ -1,0 +1,154 @@
+.ListeAmis{
+    /* background-color: #eee; */
+    background: rgba(0, 0, 0, 0.7);
+   width: 100%;
+   height: 100%;
+   position: fixed;
+   top: 0;
+   /*
+   left: 14%;
+   right: 0;
+   bottom: 55%; */
+
+   /* display: none; */
+   /* justify-content: center; */
+   /* align-items: center; */
+   z-index: 1;
+   /* padding-left: 7%; */
+}
+.ListeAmis .EmplacementListeAmis{
+    background-color: #fff;
+    width: 450px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.ListeAmis .EmplacementListeAmis .Header .Navigation{
+    display: flex;    
+}
+
+.ListeAmis .EmplacementListeAmis .Header .Navigation .Amis span ,
+.ListeAmis .EmplacementListeAmis .Header .Navigation .InvitationsEnvoyer span{
+    cursor: pointer;
+}
+
+/* .ListeAmis .EmplacementListeAmis .Header{
+    border-bottom: 4px solid black;
+} */
+
+
+[placeholder]{
+    font-style: italic;
+}
+
+
+.ListeAmis .EmplacementListeAmis .Header .cancel-btn{
+    position: relative;
+    left: 400px;
+    /* top: 1px; */
+    font-size: 34px;
+    cursor: pointer;
+    color: #9658fe;
+    /* display: none; */
+}
+
+
+.ListeAmis .EmplacementListeAmis .autocom-box{
+    overflow-y: auto;
+    height: 370px;
+    max-height: 370px;
+    /* opacity: 0;
+    pointer-events: none; */
+}
+
+
+.ListeAmis .EmplacementListeAmis .autocom-box::-webkit-scrollbar,
+.ListeAmis .EmplacementListeAmis .autocom-box::-webkit-scrollbar-thumb {
+  width: 26px;
+  border-radius: 13px;
+  background-clip: padding-box;
+  border: 10px solid transparent;
+}
+
+.ListeAmis .EmplacementListeAmis .autocom-box::-webkit-scrollbar-thumb {        
+  box-shadow: inset 0 0 0 10px;
+}
+
+
+
+.ListeAmis .EmplacementListeAmis .autocom-box li .Profil .ImageProfil  {
+    width: 14%;
+}
+
+.ListeAmis .EmplacementListeAmis .autocom-box li .Profil .ImageProfil > img {
+    width: 100%;
+    /* border-top-left-radius: 50% 50%;
+     border-top-right-radius: 50% 50%;
+     border-bottom-right-radius: 50% 50%;
+     border-bottom-left-radius: 50% 50%; */
+     /* height: 70px; */
+     clip-path: circle();
+
+}
+
+.ListeAmis .EmplacementListeAmis .autocom-box li .Cancel{
+
+    margin-top: 21px;
+}
+
+
+
+.ListeAmis .EmplacementListeAmis .autocom-box  li  {
+    /* text-decoration: none; */
+    list-style: none;
+    padding: 8px 12px;
+    width: 100%;
+    cursor: default;
+    border-radius:  3px ;
+    display: flex;
+    justify-content: space-around;
+    height: 30%;
+    cursor: pointer;
+    /* justify-content:space-evenly; */
+    /* display: inline; */
+    /* display: none; */
+  
+}
+
+
+
+.ListeAmis .EmplacementListeAmis .autocom-box li:hover{
+    background: #efefef ;
+
+}
+.ListeAmis .EmplacementListeAmis .autocom-box li .Profil{
+    display: flex;
+}
+.ListeAmis .EmplacementListeAmis .autocom-box li .Profil .Name {
+    /* margin: 60px; */
+    /* margin: 10%;
+    margin-right: 50%; */
+    margin-top: 5% ;
+    margin-left: 4%; 
+    font-style: italic;
+    font-size: 19px;
+}
+
+
+
+.ListeAmis .EmplacementListeAmis .Search .search-outline {
+    font-size: 30px;    
+    /* position: absolute ; */
+    /* top: 0;
+    right: 0; */
+    /* right : 180px ;
+    top: 210px; */
+    position: relative;
+    left: 410px;
+    bottom: 42px;
+    color: #644bff;
+    cursor: pointer;
+
+
+}
+

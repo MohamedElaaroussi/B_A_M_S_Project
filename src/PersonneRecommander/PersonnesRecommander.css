@@ -1,0 +1,184 @@
+
+
+.PersonnesRecommander{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+.PersonnesRecommander .slide-container{
+    max-width: 1120px;
+    width: 80%;
+    background-color: #e8e5e5;
+    /* padding: px 0; */
+    border-radius: 10px ;
+    
+}
+
+.PersonnesRecommander .slide-container .SlideSwiper{
+    padding: 30px;
+}
+
+.PersonnesRecommander .slide-container .slide-content{
+    width: 100%;
+    transition: transform .2s;
+
+}
+
+
+.PersonnesRecommander .slide-container .slide-content:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+.PersonnesRecommander .slide-container .SlideSwiper .slide-content .card-wrapper .card {
+    
+    /* width: 90%; */
+    /* border-radius: 25px; */
+    background-color: #e8e5e5;
+    border: none;
+}
+
+.PersonnesRecommander .slide-container .SlideSwiper  .slide-content .card-wrapper .card .image-content ,
+.PersonnesRecommander .slide-container .SlideSwiper .slide-content .card-wrapper .card .card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 10px 14px; */
+
+}
+
+
+
+.PersonnesRecommander .slide-container .SlideSwiper .slide-content .card-wrapper .card .image-content{
+    position: relative;
+    row-gap: 5px;
+    padding: 25px 0;
+}
+
+.PersonnesRecommander .slide-container .SlideSwiper .slide-content .card-wrapper .card .image-content .overlay{
+    position:  absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px 25px 0 25px ;
+    border: none;
+
+    background-color: #e5bf56;
+}
+
+.PersonnesRecommander .slide-container .SlideSwiper .slide-content .card-wrapper .card .image-content .overlay::before ,
+.PersonnesRecommander .slide-container .SlideSwiper .slide-content .card-wrapper .card .image-content .overlay::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 40px;
+    border: none;
+
+   background-color: #e5bf56;
+
+}
+
+
+
+.PersonnesRecommander .slide-container .SlideSwiper .slide-content .card-wrapper .card .image-content .overlay::after{
+    border-radius: 0 25px 0 0 ;
+    border: none;
+
+    background-color: #fff;
+}
+
+.PersonnesRecommander .slide-container .SlideSwiper .slide-content .card-wrapper .card .image-content .card-image {
+    position: relative;
+    height : 120px ;
+    width: 120px;
+    background: #fff;
+    border-radius: 50%;
+    padding: 3px;
+    
+    
+    
+}
+
+
+
+.PersonnesRecommander .slide-container .SlideSwiper .slide-content .card-wrapper .card .image-content .card-image img {
+    
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #e5bf56 ;
+
+}
+
+
+
+.PersonnesRecommander .slide-container .SlideSwiper .slide-content .card-wrapper .card .card-content{
+    background-color: #fff;
+}
+
+.PersonnesRecommander .slide-container .SlideSwiper .slide-content .card-wrapper .card .card-content h3{
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+}
+
+.PersonnesRecommander .slide-container .SlideSwiper .slide-content .card-wrapper .card .card-content .AmisCommun{
+    font-size: 14px;
+    color: #707070;
+    text-align: center;
+
+}
+
+.PersonnesRecommander .slide-container .SlideSwiper .slide-content .card-wrapper .card .card-content .AddPersonne{
+    font-size: 23px;
+    color: #e5bf56;
+    margin: 14px;
+    cursor: pointer;
+}
+
+
+/* .PersonnesRecommander .slide-container .SlideSwiper .slide-content .card-wrapper .card .card-content .overlay2{
+    position:  absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px 25px 0 25px ;
+
+    background-color: #54ae4a;
+} */
+.PersonnesRecommander .slide-container .SlideSwiper .slide-content .card-wrapper .card .card-content .overlay2::before,
+.PersonnesRecommander .slide-container .SlideSwiper .slide-content .card-wrapper .card .card-content .overlay2::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    /* top: -1; */
+    /* right: -50px; */
+    bottom: 113px;
+    height: 40px;
+    width: 40px;
+   background-color: #fff;
+   border: none;
+
+}
+
+.PersonnesRecommander .slide-container .SlideSwiper .slide-content .card-wrapper .card .card-content .overlay2::after{
+    border-radius: 0 0 0 25px ;
+    background-color: #e5bf56;
+    border: none;
+}
+
+.PersonnesRecommander .slide-container .SlideSwiper .slide-content .card-wrapper .card .card-content .overlay2:hover{
+    border: #e5bf56;
+}
+
+

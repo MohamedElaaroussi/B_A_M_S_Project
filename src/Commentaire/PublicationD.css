@@ -1,0 +1,257 @@
+
+
+
+
+
+:root{
+    /* ===== Colors ===== */
+    --body-color:#ffffff ;
+    --sidebar-color: #d7d6d6; 
+    /* --sidebar-color: #9bb69c; */
+    --primary-color: #8F4C32;
+    --primary-color-light: #121213;
+    --toggle-color: #DDD;
+    --text-color: #707070;
+    --content-color: #000000;
+
+    /* ====== Transition ====== */
+    --tran-03: all 0.2s ease;
+    --tran-03: all 0.3s ease;
+    --tran-04: all 0.3s ease;
+    --tran-05: all 0.3s ease;
+}
+
+
+
+
+
+
+
+.PublicationD {
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    /* display: none; */
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    padding-left: 7%;
+}
+
+/* .PublicationD {
+    display: flex;
+} */
+.PublicationD  .button__icon_3 {
+    color :white ;
+    }
+
+.PublicationD  span{
+    color :var(--content-color) ;
+    }
+.PublicationD .cancel-btn1{
+    width: 10px;
+    height: 10px;
+    margin-top: 5px;
+    left: 39px;
+    position: relative;
+    /* left: 92%; */
+    
+    cursor: pointer;
+   color: #000000;
+
+}
+
+.PublicationD .Post > video {
+    height: 100%;
+    width:100%;
+    
+    border-radius: 12px;
+}
+
+.PublicationD .commentShow{
+    display: flex;
+}
+
+
+.PublicationD .EmplacementPublication {
+    display: flex;
+    flex-direction: row;
+    height: 520px;
+    width: 400px;
+    background: var(--body-color);
+}
+
+
+
+
+
+
+.PublicationD .Commentaire {
+    height: 500px;
+    /* overflow: scroll; */
+    width: 60%;
+    
+}
+
+
+
+.PublicationD .EmplacementPublication>.Post>img {
+    width: 100%;
+    height: 100%;
+}
+
+.PublicationD .EmplacementPublication .Post {
+    width: 40%;
+}
+
+
+.PublicationD .Commentaire>section {
+    height: 67%;
+    overflow: scroll;
+}
+
+
+.PublicationD .Commentaire>section::-webkit-scrollbar,
+.PublicationD .Commentaire>section::-webkit-scrollbar-thumb {
+    width: 26px;
+    border-radius: 13px;
+    background-clip: padding-box;
+    border: 10px solid transparent;
+}
+
+.PublicationD .Commentaire>section::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 0 10px;
+}
+
+
+
+.PublicationD .icons {
+    display: flex;
+}
+
+
+.PublicationD .icons {
+    font-size: 23px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+.PublicationD .Commentaire header {
+    padding: 1px;
+    font-size: 2em;
+    text-align: center;
+    background: var(--body-color);
+    border-bottom: 1px solid #ddd;
+}
+
+
+
+.PublicationD .Commentaire header>.return-down-back-outline {
+    float: left;
+
+}
+
+
+.PublicationD .Commentaire header>.navigate-outline {
+    float: right;
+
+}
+
+
+
+.PublicationD .Commentaire>section>div {
+    padding: 4%;
+    display: flex;
+
+}
+
+
+
+.PublicationD .Commentaire>section>div>.Image {
+    width: 60px;
+    position : relative ;
+    bottom : 23px ;
+}
+
+
+.PublicationD .Commentaire>section>div>.Image>img {
+    width: 100%;
+    /* border-top-left-radius: 50% 50%;
+     border-top-right-radius: 50% 50%;
+     border-bottom-right-radius: 50% 50%;
+     border-bottom-left-radius: 50% 50%; */
+    /* height: 70px; */
+    clip-path: circle();
+
+}
+
+
+
+.PublicationD .Commentaire>section>div>.comment-body {
+    padding: 1px;
+    font-size: 1.1em;
+}
+
+.PublicationD .Commentaire>section>div>.comment-body>.Name {
+    font-weight: bold;
+}
+
+.PublicationD .Commentaire>section>div>.heart-outline {
+    padding-top: 3%;
+    width: 20%;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.PublicationD footer section {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.PublicationD footer>div .Envoyer-button {
+    width: 50px;
+    height: 50px;
+    background-color: #2bc174;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+
+}
+
+.PublicationD .Envoyer-button>.button__icon_3 {
+    font-size: 24px;
+}
+
+
+
+.PublicationD footer .Envoyer {
+    display: flex;
+}
+
+
+
+.PublicationD .close-circle-outline{
+
+    font-size : 40px ;
+    position : relative ;
+    bottom : 7px ;
+    left:68px ;
+    
+color : green ;
+    }

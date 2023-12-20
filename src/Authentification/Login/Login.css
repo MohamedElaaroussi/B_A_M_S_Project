@@ -1,0 +1,126 @@
+.Login{
+    margin-top: 40px;
+    width: 200px;
+}
+
+.Login .EmplacementLogin{
+    width: 200px;
+    max-width: 200px;
+    min-width: 200px;
+}
+
+.Login .EmplacementLogin .Form{
+    width: 40rem;
+    height: 27rem;
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.06);
+    box-shadow:0 8px 32px 0 rgba(31, 38, 135, .37);
+    border-radius: 30px;
+    border-left: 1px solid rgba(255, 255, 255, .3);
+    border-top: 1px solid rgba(255, 255, 255, .3);
+    width: 400px;
+    max-width: 400px;
+    min-width: 400px;
+
+}
+
+.Login .EmplacementLogin form:after{
+    content: '';
+    position: absolute;
+    top: 14%;
+    left: 55%;
+    width: 120rem;
+    height: 120rem;
+    background: #8F4C32;
+    border-radius: 50%;
+    z-index: -1;
+    opacity: .8;
+   
+    
+}
+
+.Login .EmplacementLogin input{
+    width: 80%;
+    margin:  5% auto;
+    margin-bottom: 8%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: rgb(143, 133, 133);
+    border-bottom: 1px solid  #8F4C32;
+    opacity: .8;
+
+
+}
+
+
+.Login .EmplacementLogin input:hover{
+    background-color: none;
+}
+.Login .EmplacementLogin .Submit{
+    width: 40%;
+    margin: 3% auto;
+    color: #ffffff;
+    font-size: 15px;
+    opacity: .7;
+    background: #8F4C32;
+    padding: 8px ;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.2);
+    box-shadow: 3px 3px 5px rgba(31, 38, 135, .37);
+    
+    margin-left:30%;
+    
+   
+    
+
+}
+
+.Login .EmplacementLogin .White{
+    color:rgb(143, 133, 133) ;
+}
+
+.Login .EmplacementLogin h1{
+    font-size: 50px;
+    text-align: center;
+    color: rgb(143, 133, 133);
+    text-shadow: 2px 2px 4px rgba(0,0,0,.2);
+    letter-spacing: 3px;
+    margin-bottom: 5%;
+    opacity: .7;
+
+    
+
+}
+
+.Login .EmplacementLogin h1:hover{
+    color:#8F4C32 ;
+
+}
+
+.Login .EmplacementLogin button:hover{
+    background: white;
+    color: #8F4C32;
+}
+
+.Login .EmplacementLogin a{
+    font-size: 12px;
+    text-align: center;
+    color: var(--foreground);
+    opacity: .7;
+    text-decoration: none;
+    margin: 2% auto;
+    cursor: pointer;
+    
+}
+
+.Login .EmplacementLogin a:hover{
+    color: #146511;
+}
+
+
+
+

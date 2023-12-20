@@ -1,0 +1,245 @@
+:root{
+    /* ===== Colors ===== */
+    --body-color:#ffffff ;
+    --sidebar-color: #d7d6d6; 
+    /* --sidebar-color: #9bb69c; */
+    --primary-color: #8F4C32;
+    --primary-color-light: #121213;
+    --toggle-color: #DDD;
+    --text-color: #707070;
+    --content-color: #000000;
+
+    /* ====== Transition ====== */
+    --tran-03: all 0.2s ease;
+    --tran-03: all 0.3s ease;
+    --tran-04: all 0.3s ease;
+    --tran-05: all 0.3s ease;
+}
+
+
+
+.BoiteChat .BoiteChat_2{
+    /* position: absolute;
+
+    */
+    background-color:  var(--body-color);
+    width: 450px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: transform .4s;
+    box-shadow: 0 1.4rem 8rem rgba(0, 0, 0, 0.2);
+}
+
+/* ----------------- Section 2 ------------------- */
+
+
+.BoiteChat .wrapper{
+    /* position: relative;
+    left: 40px; */
+    /* width: 350px; */
+    width: auto;
+    height: 200px;
+    /* border-radius: 10px;
+    border: 2px dashed #c2cdda;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+
+}
+
+
+
+.BoiteChat .wrapper .chat-bubble-left {
+
+    padding: 10px 14px;
+    background: #eee;
+    margin: 10px 30px;
+    border-radius: 9px;
+    position: relative;
+    animation: fadeIn 1s ease-in;
+    display: table; /* keep the background color wrapped tight */
+    /* margin: 0px auto 0px auto; //keep the table centered */
+    /* padding:5px;font-size:20px;background-color:green;color:#ffffff; */
+  }
+
+.BoiteChat .wrapper  .chat-bubble-right{
+    padding: 10px 14px;
+    background: #eee;
+    margin: 10px 30px;
+    border-radius: 9px;
+    float: right;
+    position: relative;
+    animation: fadeIn 1s ease-in;
+    background-color: #f1e12e;
+    display: table; /* keep the background color wrapped tight */
+    /* margin: 0px auto 0px auto; //keep the table centered */
+    /* padding:5px;font-size:20px;background-color:green;color:#ffffff; */
+  }
+.BoiteChat .wrapper .chat-bubble:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-bottom: 0;
+    margin-top: -10px;
+  }
+.BoiteChat .wrapper .chat-bubble--left:after {
+    left: 0;
+    border-right-color: #eee;
+    border-left: 0;
+    margin-left: -20px;
+  }
+.BoiteChat .wrapper .chat-bubble--right:after {
+    right: 0;
+    border-left-color: #f1e12e;
+    border-right: 0;
+    margin-right: -20px;
+  }
+
+
+
+.BoiteChat .Envoyer-button{
+    width: 50px;
+    height: 50px;
+    background-color: #2bc174;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+
+}
+.BoiteChat .Envoyer-button .button__icon_3{
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+[placeholder]{
+    font-style: italic;
+}
+
+
+
+
+
+.BoiteChat .cancel-btn1{
+    /* position: absolute; */
+    /* left: 0px; */
+    /* float:right; */
+    display: flex;
+    justify-content: end;
+    
+   
+    
+    
+
+}
+.BoiteChat .cancel-btn1 > span{
+    cursor: pointer;
+   color: #9658fe;
+    font-size: 34px;
+}
+
+
+/* .BoiteChat .cancel-btn > span{
+    font-size: 34px;
+} */
+
+.BoiteChat .Header div .Profil .ImageProfil  {
+    width: 20%;
+}
+
+.BoiteChat .Header div .Profil .ImageProfil > img {
+    width: 100%;
+   
+     clip-path: circle();
+
+}
+
+
+
+.BoiteChat .Header div  {
+    /* text-decoration: none; */
+    list-style: none;
+    padding: 8px 12px;
+    width: 100%;
+    cursor: default;
+    border-radius:  3px ;
+    display: flex;
+    /* justify-content: space-around; */
+    height: 30%;
+    cursor: pointer;
+    /* justify-content:space-evenly; */
+    /* display: inline; */
+    /* display: none; */
+  
+}
+
+
+
+.BoiteChat .Header div:hover{
+    background: #efefef ;
+
+}
+/* .BoiteChat .Header div .Profil{
+    display: flex;
+} */
+.BoiteChat .Header div .Profil .Name {
+    /* margin: 60px; */
+    /* margin: 10%;
+    margin-right: 50%; */
+    /* margin-top: 5% ;
+    margin-left: 4%;  */
+    font-style: italic;
+    font-size: 19px;
+}
+
+.BoiteChat .wrapper .chat-bubble--left img{
+    width: 100%;
+    height: 200px;
+}
+
+.BoiteChat .wrapper .chat-bubble--right img{
+    width: 100%;
+    height: 200px;
+}
+
+
+.BoiteChat .Choix-Image .Button-Image{
+    width: 33px;
+    height: 33px;
+    background-color: #006e58;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+
+}
+
+.BoiteChat .Choix-Image .Button-Image .Icon-button-Image{
+    font-size: 20px;
+}
+
+
+.TEMPS_MESSAGE{
+    color: var(--content-color);
+}
+
+
+
+
+
+

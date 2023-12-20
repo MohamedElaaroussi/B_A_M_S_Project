@@ -1,0 +1,53 @@
+.Accueil .EmplacementAccueil{
+    display:flex;
+    margin-left:190px;
+    max-width: 10px;
+   
+}
+.Accueil{
+    min-height: 100vh;
+    background-color: var(--body-color);
+    transition: var(--tran-05);
+    display: flex;
+}
+
+
+
+
+
+.Accueil .Chargement_w {
+ position: relative;
+ bottom: 320px;
+ /* left: 80px; */
+}
+
+
+body::-webkit-scrollbar,
+body::-webkit-scrollbar-thumb {
+width: 26px;
+border-radius: 13px;
+background-clip: padding-box;
+border: 10px solid transparent;
+}
+
+body::-webkit-scrollbar-thumb {        
+box-shadow: inset 0 0 0 10px;
+}
+
+
+
+
+
+
+
+/* .Accueil::-webkit-scrollbar,
+.Accueil::-webkit-scrollbar-thumb {
+width: 26px;
+border-radius: 13px;
+background-clip: padding-box;
+border: 10px solid transparent;
+}
+
+.Accueil::-webkit-scrollbar-thumb {        
+box-shadow: inset 0 0 0 10px;
+} */

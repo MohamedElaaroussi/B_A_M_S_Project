@@ -1,0 +1,169 @@
+
+
+
+:root{
+    /* ===== Colors ===== */
+    --body-color:#ffffff ;
+    --sidebar-color: #d7d6d6; 
+    /* --sidebar-color: #9bb69c; */
+    --primary-color: #8F4C32;
+    --primary-color-light: #121213;
+    --toggle-color: #DDD;
+    --text-color: #707070;
+    --content-color: #000000;
+
+    /* ====== Transition ====== */
+    --tran-03: all 0.2s ease;
+    --tran-03: all 0.3s ease;
+    --tran-04: all 0.3s ease;
+    --tran-05: all 0.3s ease;
+}
+
+.Notifications{
+    /* background-color: #eee; */
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    /* display: none; */
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    padding-left: 7%
+}
+
+
+.Notifications .EmplacementNotifications{
+    background-color: var(--body-color);
+    width: 440px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+
+
+
+.Notifications  h3{
+    color: var(--content-color);
+}
+
+.Notifications .EmplacementNotifications .autocom-box{
+    overflow-y: auto;
+    height: 370px;
+    max-height: 370px;
+    /* opacity: 0;
+    pointer-events: none; */
+}
+
+
+.Notifications .EmplacementNotifications .autocom-box::-webkit-scrollbar,
+.Notifications .EmplacementNotifications .autocom-box::-webkit-scrollbar-thumb {
+  width: 26px;
+  border-radius: 13px;
+  background-clip: padding-box;
+  border: 10px solid transparent;
+}
+
+.Notifications .EmplacementNotifications .autocom-box::-webkit-scrollbar-thumb {        
+  box-shadow: inset 0 0 0 10px;
+}
+
+
+.Notifications .EmplacementNotifications .autocom-box li .ImageProfil  {
+    width: 50px;
+    /* width: 50px; */
+    max-width: 50px;
+    min-width: 50px;
+    height: 90px;
+    position: relative;
+    right: 180px;
+}
+
+.Notifications .EmplacementNotifications .autocom-box li .ImageProfil > img {
+    width: 100%;
+    height: 100%;
+    /* border-top-left-radius: 50% 50%;
+     border-top-right-radius: 50% 50%;
+     border-bottom-right-radius: 50% 50%;
+     border-bottom-left-radius: 50% 50%; */
+     /* height: 70px; */
+     clip-path: circle();
+
+}
+
+.Notifications .EmplacementNotifications .autocom-box li .Icons{
+    
+    /* position: relative;
+    left: 11px;
+    top: 15px; */
+    display: flex;
+    margin-top: 12px;
+    max-width: 20%;
+    min-width: 20%;
+
+}
+
+.Notifications .EmplacementNotifications .autocom-box li .Icons .close-circle-outline{
+    position: relative;
+    left: 11px;
+    /* top: 2px; */
+}
+.Notifications .EmplacementNotifications .autocom-box li .Icons .person-add-outline {
+    position: relative;
+    /* left: 10px; */
+}
+
+
+.Notifications .EmplacementNotifications .autocom-box  li  {
+    /* text-decoration: none; */
+    list-style: none;
+    padding: 8px 12px;
+    width: 410px;
+    position: relative;
+    cursor: default;
+    border-radius:  3px ;
+    display: flex;
+    height: 100px;
+    cursor: pointer;
+    /* justify-content:space-evenly; */
+    /* display: inline; */
+    /* display: none; */
+  
+}
+
+/* .Notifications .EmplacementNotifications .autocom-box  li  .Profil{
+    display: flex;
+} */
+
+.Notifications .EmplacementNotifications .autocom-box li:hover{
+    background: var(--toggle-color);
+
+
+}
+
+.Notifications .EmplacementNotifications .autocom-box li .Name {
+    /* margin: 60px; */
+    /* margin: 10%;
+    margin-right: 50%; */
+    /* margin-top: 5% ; */
+    /* margin-left: 4%;  */
+    font-style: italic;
+    font-size: 19px;
+    position: relative;
+    /* left: 80px; */
+    bottom: 60px;
+    right: 100px;
+    width: 240px;
+    padding-right: 10px;
+    color: var(--content-color);
+
+}
+
+.Notifications .EmplacementNotifications .autocom-box li .Icons{
+    font-size: 30px;
+   position: relative;
+   right: 112px;
+   top:15px;
+   padding-left: 10px;
+   color: var(--content-color);
+}

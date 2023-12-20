@@ -1,0 +1,332 @@
+.Authentification{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+    font-family: Arial, sans-serif;
+    font-style: italic;
+}
+
+.Authentification .EmplacementAuthentification img{
+    width: 500px;
+    height: 200px;
+    /* -------------------------- */
+    margin-left: 14%;
+    /* ------------------------------ */
+    margin-top: 10%;
+}
+
+.Authentification .EmplacementAuthentification .ReadMore{
+
+    cursor: pointer;
+    border: none;
+    width: 280px;
+    height: 62px;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    /* padding: 20px 110px ; */
+    background: linear-gradient(90deg, rgba(143,76,50,1) 0%, rgba(153,153,153,1) 100%);
+    color: white;
+    box-shadow:0 8px 32px 0 rgba(31, 38, 135, .37);
+    border-radius: 30px;
+    border-left: 1px solid rgba(255, 255, 255, .3);
+    border-top: 1px solid rgba(255, 255, 255, .3);
+    /* margin-top: 200px; */
+    /* -------------------------- */
+
+    margin-left: 250px;
+  
+    /* -------------------------- */
+
+}
+.Authentification  {
+    background: var(--background);
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    color: var(--foreground);
+    font-family: var(--ff-ody);
+    font-size: 18px;
+    line-height: 1.6;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    
+  }
+
+  .Authentification::-webkit-scrollbar,
+  .Authentification::-webkit-scrollbar-thumb {
+  width: 26px;
+  border-radius: 13px;
+  background-clip: padding-box;
+  border: 10px solid transparent;
+}
+
+.Authentification::-webkit-scrollbar-thumb {        
+  box-shadow: inset 0 0 0 10px;
+}
+
+
+
+
+.Authentification .EmplacementAuthentification .EmplacementBAMS .Description h2{
+    color: rgb(143, 133, 133);
+    font-size: 18px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.2);
+    letter-spacing: 3px;
+    /* margin-bottom: 5%; */
+    opacity: .7;
+    /* padding-bottom: 30px;
+    margin-top: 3%;
+    position: relative; */
+    /* right: 200px; */
+  }
+  
+.Authentification .EmplacementAuthentification .EmplacementBAMS .Description{ 
+    width: 700px;
+    padding: 50px;
+    margin-left: 50px;
+
+
+}
+
+
+
+.Authentification :root {
+    --clr-light: #ffff;
+    --clr-dark: #18422c;
+    --clr-primary: #dbffa2;
+    --clr-secondary: #c3fcf2;
+    --clr-accent: #ff7750;
+  
+    --foreground: var(--clr-dark);
+    --background: var(--clr-light);
+  
+    --ff-title: "Playfair Display", serif;
+    --ff-body: "Assistant", sans-serif;
+  }
+
+.darkmode {
+    --clr-light: #fff;
+    --clr-dark: #3d5347;
+    --clr-primary: #202302;
+    --clr-secondary: #00100d;
+    --clr-accent: #ff7750;
+  
+    --foreground: var(--clr-light);
+    --background: var(--clr-dark);
+    --back: var(--clr-light);
+    
+}
+
+.click-here {
+    width: 100px;
+    right: 1.5em;
+    position: absolute;
+    top: 5em;
+    margin-top: -45px;
+  }
+
+.Authentification .dark-mode-toggle {
+    position: absolute;
+    z-index: 100;
+    top: 1em;
+    right: 1em;
+    color: var(--foreground);
+    border: 2px solid currentColor;
+    padding: 4px;
+    background: transparent;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    margin-top: -5px;
+  }
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+/* @media screen and (max-width: 600px) {
+  .Auth{
+    margin-left: 13px;
+    margin-top: 50px;
+  }
+
+} */
+
+
+@media screen and (max-width: 600px){
+  .Auth{
+    /* margin-right: 10px; */
+    /* margin-left: 100px; */
+    position: relative;
+    left: -130px;
+  }
+
+
+  .Authentification .EmplacementAuthentification .EmplacementBAMS{
+   position: relative;
+   right: 110px;
+
+
+  }
+ 
+  .Authentification .EmplacementAuthentification .EmplacementBAMS .Description{ 
+    min-width: 120px;
+    max-width: 530px;
+    margin-left: 182px;
+    
+  
+  }
+
+  .Authentification .EmplacementAuthentification img{
+    min-width: 120px;
+    max-width: 430px;
+    /* margin-right:20px ; */
+    position: relative;
+    left: 20px; ;
+
+  }
+  .Authentification .EmplacementAuthentification .ReadMore{
+    
+    /* margin-right: 50%; */
+    display: flex;
+    position: relative;
+    left:30px ;
+    /* margin-left: 100px; */
+    /* margin-right: 10px; */
+   
+    
+  }
+  .SubReadMore{
+    display: flex;
+    justify-content: start;
+    width: 900px;
+  }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media  screen and (max-width: 768px) {
+  .Auth{
+    /* margin-right: 10px; */
+    /* margin-left: 100px; */
+    position: relative;
+    right: 80px;
+    /* left: 10px; */
+  }
+
+
+  .Authentification .EmplacementAuthentification .EmplacementBAMS{
+   position: relative;
+   /* right: 50px; */
+
+
+  }
+ 
+  .Authentification .EmplacementAuthentification .EmplacementBAMS .Description{ 
+    /* min-width: 120px; */
+    /* max-width: 530px; */
+    /* margin-left: 0px; */
+    /* margin-right: -150px; */
+    position: relative;
+    left: -70px;
+  
+  }
+
+  .Authentification .EmplacementAuthentification img{
+    /* min-width: 120px;
+    max-width: 430px; */
+    /* margin-right:0px ;
+     */
+     /* margin-right: 60px;
+      */
+      position: relative;
+      right: 50px;
+
+  }
+  .Authentification .EmplacementAuthentification .ReadMore{
+    
+    /* margin-right: 50%; */
+    display: flex;
+    /* position: relative;
+    right:90px ; */
+    margin-left: 190px;
+    /* margin-right: 10px; */
+   
+    
+  }
+  .SubReadMore{
+    display: flex;
+    justify-content: start;
+    width: 900px;
+  }
+
+  
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media screen and (max-width: 992px) {
+
+  .Authentification .EmplacementAuthentification img{
+    /* min-width: 120px;
+    max-width: 430px; */
+    margin-left:150px ;
+
+  }
+  .Auth{
+    margin-left: 200px;
+    margin-top: 50px;
+  }
+  .Authentification .EmplacementAuthentification{
+ 
+    margin-top: 60px;
+    margin-right: 100px;
+
+    
+}
+.Authentification .EmplacementAuthentification .EmplacementBAMS {
+  margin-left: 10px;
+}
+
+.Authentification .EmplacementAuthentification .EmplacementBAMS .Description{ 
+  position: relative;
+  right: 12px;
+}
+
+
+.Authentification .EmplacementAuthentification .ReadMore{
+  position: relative;
+  right: 10px;
+  
+}
+
+
+
+
+
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+  .Auth{
+    margin-right: 320px;
+    margin-top: 50px;
+  }
+
+}
+
+
+
+

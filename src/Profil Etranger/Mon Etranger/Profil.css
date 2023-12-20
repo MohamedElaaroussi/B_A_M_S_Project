@@ -1,0 +1,396 @@
+/* Google Font Import - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* ------------------------------style profile----------------------------------- */
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+
+
+
+
+.ProfilEtranger:root{
+  /* ===== Colors ===== */
+  --body-color:#e1e1e1 ;
+  --sidebar-color: #d7d6d6; 
+  /* --sidebar-color: #9bb69c; */
+  --primary-color: #8F4C32;
+  --primary-color-light: #121213;
+  --toggle-color: #DDD;
+  --text-color: #707070;
+  --content-color: #000000;
+
+  /* ====== Transition ====== */
+  --tran-03: all 0.2s ease;
+  --tran-03: all 0.3s ease;
+  --tran-04: all 0.3s ease;
+  --tran-05: all 0.3s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ProfilEtranger .Emplacement-Profil .Header .Menu .Nom{
+  color: #8F4C32;
+}
+
+.ProfilEtranger .Emplacement-Profil .Header .Menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.ProfilEtranger .Emplacement-Profil .Header .Menu a {
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+.ProfilEtranger{
+  margin-left: 180px;
+  font-family: 'Poppins', sans-serif;
+  font-style: italic;
+  /* margin-left: 5%; */
+  /* position: fixed;
+  top: 23px; */
+  
+}
+
+
+.ProfilEtranger .Emplacement-Profil .Header {
+  /* padding: 25px 20px; */
+  text-align: center;
+  max-width: 350px;
+  position: relative;
+  /* margin: 0 auto; */
+}
+
+.ProfilEtranger .Emplacement-Profil .Header h2 {
+  /* margin-bottom: 60px; */
+  font-weight: 600;
+  font-size: 22px;
+  /* margin-bottom: 5px; */
+  margin-left: 12%;
+}
+.ProfilEtranger .Emplacement-Profil .Header p {
+  font-size: 0.9rem;
+  color:#8F4C32 ;
+  margin: 0;
+  margin-left: 12%;
+}
+
+.ProfilEtranger .Emplacement-Profil .Header .About li span {
+  color: #8F4C32;
+  font-weight: 600;
+  margin-left: 12%;
+  /* font-family: 'Poppins', sans-serif; */
+
+}
+.ProfilEtranger .Emplacement-Profil .Header .About li  {
+  color: #707070;
+  font-weight: 600;
+  padding: 2%;
+  margin-left: 12%;
+  /* margin-top: -12%; */
+  /* font-family: 'Poppins', sans-serif; */
+  padding-bottom: 12%;
+  list-style: none;
+  
+}
+
+
+.ProfilEtranger .Emplacement-Profil .Content p {
+  font-size: 1rem;
+  color: #1d1d1d;
+  line-height: 1.8em;
+
+  color: var(--text-color);
+}
+
+
+/* .ProfilEtranger .Emplacement-Profil .Content ul {
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+} */
+
+
+/* .ProfilEtranger .Emplacement-Profil .Content ul li {
+  display: flex;
+} */
+/* .ProfilEtranger .Emplacement-Profil .Content ul i {
+  font-size: 1.3rem;
+} */
+
+
+.ProfilEtranger .Emplacement-Profil .Right__col nav {
+  display: flex;
+  align-items: center;
+  padding: 30px 0;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.ProfilEtranger .Emplacement-Profil .Right__col nav ul {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  margin-left: 15%;
+  list-style: none;
+}
+
+
+.ProfilEtranger .Emplacement-Profil .Right__col nav ul li a {
+  text-transform: uppercase;
+  color: #818181;
+  font-size: large;
+  margin-left: -50%;
+
+  
+  
+
+}
+.ProfilEtranger .Emplacement-Profil .Right__col nav ul li:nth-child(1) a {
+  color: #1d1d1d;
+  font-weight: 600;
+  color: var(--paragraphe-color);
+}
+
+.ProfilEtranger .Emplacement-Profil .Right__col  button:hover  {
+  background: #ffffff;
+  color:#8F4C32;
+  border: none;
+  padding: 8px;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-top: 1%;
+ 
+  
+  
+}
+.ProfilEtranger .Emplacement-Profil .Right__col nav button:hover {
+  opacity: 0.8;
+}
+.ProfilEtranger .Emplacement-Profil .Right__col .Photos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+.ProfilEtranger .Emplacement-Profil .Right__col .Photos img {
+  max-width: 100%;
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5%;
+}
+
+.ProfilEtranger .Emplacement-Profil .Right__col .Photos{
+  color: var(--text-color);
+ 
+  
+}
+.ProfilEtranger .Emplacement-Profil .Right__col .Photos img:hover {
+    max-width: 101%;
+    display: block;
+    height: 102%;
+    object-fit: cover;
+    border-radius: 5%;
+
+    
+  }
+
+
+.ProfilEtranger .Emplacement-Profil .Header .Menu{
+ margin-top: 30%;
+}
+.ProfilEtranger .Emplacement-Profil .Header .Menu .img__container{
+  margin-top: 10%;
+ }
+
+
+
+
+ .ProfilEtranger .Emplacement-Profil .Right__col .Photos::-webkit-scrollbar,
+ .ProfilEtranger .Emplacement-Profil .Right__col .Photos::-webkit-scrollbar-thumb {
+  width: 26px;
+  border-radius: 13px;
+  background-clip: padding-box;
+  border: 10px solid transparent;
+}
+
+.ProfilEtranger .Emplacement-Profil .Right__col .Photos::-webkit-scrollbar-thumb {        
+  box-shadow: inset 0 0 0 10px;
+}
+
+
+
+
+
+
+
+/* Responsiveness */
+
+@media (min-width: 868px) {
+ 
+   
+  .ProfilEtranger .Emplacement-Profil {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 90%;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap:20px;
+    
+
+  }
+
+  .ProfilEtranger .Emplacement-Profil .Header {
+    padding: 25px 0px;
+
+  }
+  .ProfilEtranger .Emplacement-Profil .Right__col nav ul {
+    flex-direction: row;
+    gap: 6px;
+  }
+  .ProfilEtranger .Emplacement-Profil .Right__col .Photos {
+    height: 365px;
+    overflow: auto;
+    padding: 0 0 10px;
+    
+
+  }
+  
+  
+}
+
+@media (min-width: 1017px) {
+  
+  
+  .ProfilEtranger .Emplacement-Profil .Header {
+    margin: 0;
+    margin-right: auto;
+  }
+  .ProfilEtranger .Emplacement-Profil .Right__col nav {
+    flex-direction: row;
+    
+  }
+ 
+  
+}
+
+
+
+
+                       /* --------------------- btn --------------------------- */
+  
+.Right__col a{
+  position: relative;
+  padding: 10px 30px;
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 200px;
+  overflow: hidden;
+  border-radius: 40px;
+}
+.Right__col a span{
+  position: relative;
+  color: #000;
+  font-size: 20px;
+  font-family: arial;
+  letter-spacing: 8px;
+  z-index: 1;
+
+}
+.Right__col a .liquid{
+  position: absolute;
+  top: -60px;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  background: #8F4C32;
+  
+
+}
+
+
+
+
+@keyframes animate{
+  0% {
+    transform: translate(-50% , -75%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50% , -75%) rotate(360deg);
+  }
+
+
+  
+}
+
+
+
+
+/* ---- ------------------ Image ----------------- -----*/
+
+.ProfilEtranger .Emplacement-Profil .Header .add-circle-outline{
+  /* margin-top: 100px; */
+  font-size: 24px;
+  color: var(--text-color);
+  cursor: pointer;
+  margin-left: 100px;
+}
+
+
+
+
+.Emplacement-Image-Profil .Emplacement-Image-Profil-2 .Section .Wrapper .EmplacementImage2{
+  border: 1px  color var(--text-color) solid;
+  width: 40%;
+  /* height: 30%; */
+  height: 110px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 36%;
+  /* margin-top: -10%; */
+}
+
+.Emplacement-Image-Profil .Emplacement-Image-Profil-2 .Section .Wrapper .EmplacementImage2 .Image{
+  width: 90px;
+  height: 90px;
+  /* margin-top: -19%; */
+  /* margin-left: -10%; */
+}
+
+.Emplacement-Image-Profil .Emplacement-Image-Profil-2 .Section .Wrapper .EmplacementImage2 .Image img{
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  border-radius: 50%;
+
+}
+.Bamsprof{
+  margin-top: -15%;
+}
+
+
+
+
+
+

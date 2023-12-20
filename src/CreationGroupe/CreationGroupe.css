@@ -1,0 +1,255 @@
+.CreationGroupe{
+
+   
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    /* display: none; */
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    padding-left: 7%
+  
+}
+
+
+
+
+:root{
+    /* ===== Colors ===== */
+    --body-color:#ffffff ;
+    --sidebar-color: #d7d6d6; 
+    /* --sidebar-color: #9bb69c; */
+    --primary-color: #8F4C32;
+    --primary-color-light: #121213;
+    --toggle-color: #DDD;
+    --text-color: #707070;
+    --content-color: #000000;
+
+    /* ====== Transition ====== */
+    --tran-03: all 0.2s ease;
+    --tran-03: all 0.3s ease;
+    --tran-04: all 0.3s ease;
+    --tran-05: all 0.3s ease;
+}
+
+
+.CreationGroupe .EmplacementCreationGroupe .Titre{
+    color: var(--content-color);
+}
+
+.CreationGroupe .EmplacementCreationGroupe{
+    background-color: var(--body-color);
+    
+    position: relative;
+    bottom: 40px;
+    width: 440px;
+    max-width:440px ;
+    min-width:440px ;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.CreationGroupe .EmplacementCreationGroupe .section{
+    max-height: 550px;
+    height: 400px;
+}
+
+
+.CreationGroupe .EmplacementCreationGroupe .section .AddImage {
+    display: flex;
+    justify-content: center;
+}
+.CreationGroupe .EmplacementCreationGroupe .section .AddImage .EmplacementImage{
+    border: 1px black solid;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.CreationGroupe .EmplacementCreationGroupe .section .AddImage .EmplacementImage .Image{
+    width: 100% ;
+    max-width: 100% ;
+    min-width: 100%;
+    height: 100%;
+}
+
+.CreationGroupe .EmplacementCreationGroupe .section .AddImage .EmplacementImage .Image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    /* border-top-left-radius: 50% 50%;
+     border-top-right-radius: 50% 50%;
+     border-bottom-right-radius: 50% 50%;
+     border-bottom-left-radius: 50% 50%; */
+     /* height: 70px; */
+     /* clip-path: circle(); */
+
+}
+
+.CreationGroupe .EmplacementCreationGroupe .section .AddImage .add-circle-outline{
+    margin-top: 100px;
+    font-size: 24px;
+    color: #2bc174;
+    cursor: pointer;
+}
+
+
+.CreationGroupe .EmplacementCreationGroupe .footer .Envoyer .Envoyer-button{
+    width: 50px;
+    height: 50px;
+    background-color: #2bc174;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+}
+
+
+.CreationGroupe .EmplacementCreationGroupe .footer .Envoyer{
+    display: flex;
+    justify-content: end;
+}
+
+.CreationGroupe .EmplacementCreationGroupe .footer .Envoyer .Envoyer-button .button__icon_3{
+    font-size: 24px;
+}
+
+[placeholder]{
+    font-style: italic;
+
+}
+
+.CreationGroupe .EmplacementCreationGroupe .Section-2 .Search .search-outline {
+    font-size: 30px;    
+    /* position: absolute ; */
+    /* top: 0;
+    right: 0; */
+    /* right : 180px ;
+    top: 210px; */
+    position: relative;
+    left: 401px;
+    bottom: 42px;
+    color: #644bff;
+    cursor: pointer;
+
+
+}
+
+
+.CreationGroupe .EmplacementCreationGroupe .Section-2 .ApresTitre{
+    display: flex;
+    justify-content: center;
+}
+
+.CreationGroupe .EmplacementCreationGroupe .Section-2 .Titre h4{
+    color: var(--content-color);
+}
+
+
+.CreationGroupe .EmplacementCreationGroupe .Section-2 .autocom-box{
+    overflow: auto;
+    /* overflow-y: auto; */
+    height: 300px;
+    max-height: 200px;
+    /* opacity: 0;
+    pointer-events: none; */
+}
+
+
+.CreationGroupe .EmplacementCreationGroupe .Section-2 .autocom-box::-webkit-scrollbar,
+.CreationGroupe .EmplacementCreationGroupe .Section-2 .autocom-box::-webkit-scrollbar-thumb {
+  width: 26px;
+  border-radius: 13px;
+  background-clip: padding-box;
+  border: 10px solid transparent;
+}
+
+.CreationGroupe .EmplacementCreationGroupe .Section-2 .autocom-box::-webkit-scrollbar-thumb {        
+  box-shadow: inset 0 0 0 10px;
+}
+
+
+.CreationGroupe .EmplacementCreationGroupe .Section-2 .autocom-box li .ImageProfil  {
+    width: 50px;
+    /* width: 50px; */
+    max-width: 50px;
+    min-width: 50px;
+    height: 90px;
+    position: relative;
+    right: 180px;
+}
+
+.CreationGroupe .EmplacementCreationGroupe .Section-2 .autocom-box li .ImageProfil > img {
+    width: 100%;
+    height: 100%;
+    /* border-top-left-radius: 50% 50%;
+     border-top-right-radius: 50% 50%;
+     border-bottom-right-radius: 50% 50%;
+     border-bottom-left-radius: 50% 50%; */
+     /* height: 70px; */
+     clip-path: circle();
+
+}
+.CreationGroupe .EmplacementCreationGroupe .Section-2 .autocom-box  li  {
+    /* text-decoration: none; */
+    list-style: none;
+    padding: 8px 12px;
+    width: 410px;
+    position: relative;
+    /* right: 90px; */
+    cursor: default;
+    border-radius:  3px ;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    cursor: pointer;
+    /* justify-content:space-evenly; */
+    /* display: inline; */
+    /* display: none; */
+  
+}
+
+/* .CreationGroupe .EmplacementCreationGroupe .Section-2 .autocom-box  li  .Profil{
+    display: flex;
+} */
+
+.CreationGroupe .EmplacementCreationGroupe .Section-2 .autocom-box li:hover{
+    background: var(--toggle-color);
+
+}
+
+.CreationGroupe .EmplacementCreationGroupe .Section-2 .autocom-box li .Name {
+    /* margin: 60px; */
+    /* margin: 10%;
+    margin-right: 50%; */
+    /* margin-top: 5% ;
+    margin-left: 4%;  */
+    font-style: italic;
+    font-size: 19px;
+    position: relative;
+    /* left: 80px; */
+    bottom: 60px;
+    right: 100px;
+    color: var(--content-color);
+}
+
+.CreationGroupe .EmplacementCreationGroupe .Section-2 .autocom-box li .checkbox_1 {
+    font-size: 20px;
+    /* margin-top: 28px; */
+   /* float: right; */
+   position: relative;
+   top: 30px;
+}
+
+.CreationGroupe .EmplacementCreationGroupe .Section-2 .autocom-box li .checkbox > input:checked{
+    background-color: rgb(206, 104, 46);
+    /* border: #644bff; */
+    /* border-style: none; */
+}
